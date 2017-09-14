@@ -2,11 +2,11 @@
 
 namespace Melihovv\EloquentPresenceVerifier\Tests;
 
-use Illuminate\Database\ConnectionResolverInterface;
-use Illuminate\Database\Eloquent\Model;
-use Melihovv\EloquentPresenceVerifier\EloquentPresenceVerifier;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\ConnectionResolverInterface;
+use Melihovv\EloquentPresenceVerifier\EloquentPresenceVerifier;
 
 class EloquentPresenceVerifierTest extends TestCase
 {
