@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/melihovv/eloquent-presence-verifier.svg?branch=master)](https://travis-ci.org/melihovv/eloquent-presence-verifier)
 [![styleci](https://styleci.io/repos/103585916/shield)](https://styleci.io/repos/103585916)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/ee5b322d-6ec6-495d-8037-e3c2fc9378e7/mini.png)](https://insight.sensiolabs.com/projects/ee5b322d-6ec6-495d-8037-e3c2fc9378e7)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/eloquent-presence-verifier.svg)](https://packagist.org/packages/melihovv/eloquent-presence-verifier)
 [![Packagist](https://poser.pugx.org/melihovv/eloquent-presence-verifier/d/total.svg)](https://packagist.org/packages/melihovv/eloquent-presence-verifier)
