@@ -4,7 +4,7 @@ namespace Melihovv\EloquentPresenceVerifier;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    const CONFIG_PATH = __DIR__ . '/../config/eloquent-presence-verifier.php';
+    const CONFIG_PATH = __DIR__.'/../config/eloquent-presence-verifier.php';
 
     public function boot()
     {
