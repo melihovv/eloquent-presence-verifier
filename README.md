@@ -86,3 +86,5 @@ instead of using the issue tracker.
 
 - [Alexander Melihov](https://github.com/melihovv/eloquent-presence-verifier)
 - [All contributors](https://github.com/melihovv/eloquent-presence-verifier/graphs/contributors)
+
+This package is bootstrapped with the help of [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
