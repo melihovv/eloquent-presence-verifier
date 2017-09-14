@@ -1,7 +1,7 @@
 # Eloquent Presence Verifier
 
 [![Build Status](https://travis-ci.org/melihovv/eloquent-presence-verifier.svg?branch=master)](https://travis-ci.org/melihovv/eloquent-presence-verifier)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+[![styleci](https://styleci.io/repos/103585916/shield)](https://styleci.io/repos/103585916)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
 
