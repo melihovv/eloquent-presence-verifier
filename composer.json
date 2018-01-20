@@ -9,6 +9,7 @@
     "verifier",
     "validation"
   ],
+  "type": "library",
   "authors": [
     {
       "name": "Alexander Melihov",
