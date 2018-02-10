@@ -10,25 +10,25 @@ notifications:
 matrix:
   include:
     - php: 7.0
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST="--prefer-lowest --prefer-stable"
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
     - php: 7.0
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST=""
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS=""
     - php: 7.1
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST="--prefer-lowest --prefer-stable"
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
     - php: 7.1
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST=""
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS=""
     - php: 7.1
-      env: LARAVEL_VERSION=5.6.* PREFER_LOWEST="--prefer-lowest --prefer-stable"
+      env: LARAVEL_VERSION=5.6.* COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
     - php: 7.1
-      env: LARAVEL_VERSION=5.6.* PREFER_LOWEST=""
+      env: LARAVEL_VERSION=5.6.* COMPOSER_FLAGS=""
     - php: 7.2
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST="--prefer-lowest --prefer-stable"
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
     - php: 7.2
-      env: LARAVEL_VERSION=5.5.* PREFER_LOWEST=""
+      env: LARAVEL_VERSION=5.5.* COMPOSER_FLAGS=""
     - php: 7.2
-      env: LARAVEL_VERSION=5.6.* PREFER_LOWEST="--prefer-lowest --prefer-stable"
+      env: LARAVEL_VERSION=5.6.* COMPOSER_FLAGS="--prefer-lowest --prefer-stable"
     - php: 7.2
-      env: LARAVEL_VERSION=5.6.* PREFER_LOWEST=""
+      env: LARAVEL_VERSION=5.6.* COMPOSER_FLAGS=""
 
 before_install:
   - travis_retry composer self-update --stable -n
@@ -36,7 +36,7 @@ before_install:
   - composer require "laravel/framework:${LARAVEL_VERSION}" --no-update -n
 
 install:
-  - travis_retry composer install --no-suggest --prefer-dist -n -o
+  - travis_retry composer install --no-suggest --prefer-dist -n -o $COMPOSER_FLAGS
   - travis_retry composer require --dev satooshi/php-coveralls
 
 script:
