@@ -39,5 +39,8 @@ jobs:
           composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" satooshi/php-coveralls --no-interaction --no-update
           composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-suggest
 
+      - name: Debug
+        run: php -i
+
       - name: Execute tests
-        run: php -i|grep xdebug && composer run phpunit -- --coverage-clover ./tests/logs/clover.xml && php vendor/bin/php-coveralls -v
+        run: composer run phpunit -- --coverage-clover ./tests/logs/clover.xml && php vendor/bin/php-coveralls -v
