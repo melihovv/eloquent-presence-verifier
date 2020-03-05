@@ -1,9 +1,8 @@
 # Eloquent Presence Verifier
 
-[![Build Status](https://travis-ci.org/melihovv/eloquent-presence-verifier.svg?branch=master)](https://travis-ci.org/melihovv/eloquent-presence-verifier)
+[![Build Status](![GitHub Workflow Status](https://img.shields.io/github/workflow/status/melihovv/eloquent-presence-verifier/run-php-tests?label=Tests))](https://github.com/melihovv/eloquent-presence-verifier/actions)
 [![styleci](https://styleci.io/repos/103585916/shield)](https://styleci.io/repos/103585916)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/ee5b322d-6ec6-495d-8037-e3c2fc9378e7/mini.png)](https://insight.sensiolabs.com/projects/ee5b322d-6ec6-495d-8037-e3c2fc9378e7)
 [![Coverage Status](https://coveralls.io/repos/github/melihovv/eloquent-presence-verifier/badge.svg?branch=master)](https://coveralls.io/github/melihovv/eloquent-presence-verifier?branch=master)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/eloquent-presence-verifier.svg)](https://packagist.org/packages/melihovv/eloquent-presence-verifier)
