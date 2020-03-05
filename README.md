@@ -2,7 +2,6 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/melihovv/eloquent-presence-verifier/run-php-tests?label=Tests)
 [![styleci](https://styleci.io/repos/103585916/shield)](https://styleci.io/repos/103585916)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/melihovv/eloquent-presence-verifier/?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/melihovv/eloquent-presence-verifier/badge.svg?branch=master)](https://coveralls.io/github/melihovv/eloquent-presence-verifier?branch=master)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/eloquent-presence-verifier.svg)](https://packagist.org/packages/melihovv/eloquent-presence-verifier)
