@@ -2,9 +2,9 @@
 
 namespace Melihovv\EloquentPresenceVerifier;
 
+use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Validation\DatabasePresenceVerifier;
-use Illuminate\Database\ConnectionResolverInterface;
 
 class EloquentPresenceVerifier extends DatabasePresenceVerifier
 {
