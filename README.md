@@ -23,23 +23,6 @@ Install via composer
 composer require melihovv/eloquent-presence-verifier
 ```
 
-### Register Service Provider
-
-**Note! This and next step are optional if you use laravel>=5.5 with package
-auto discovery feature.**
-
-Add service provider to `config/app.php` in `providers` section
-```php
-Melihovv\EloquentPresenceVerifier\ServiceProvider::class,
-```
-
-### Register Facade
-
-Register package facade in `config/app.php` in `aliases` section
-```php
-Melihovv\EloquentPresenceVerifier\Facades\EloquentPresenceVerifier::class,
-```
-
 ### Publish Configuration File
 
 ```
