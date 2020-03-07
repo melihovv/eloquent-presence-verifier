@@ -1,6 +1,6 @@
 # Eloquent Presence Verifier
 
-![GitHub Workflow Status](https://github.com/melihovv/eloquent-presence-verifier/workflows/Run%20tests/badge.svg)
+[![GitHub Workflow Status](https://github.com/melihovv/eloquent-presence-verifier/workflows/Run%20tests/badge.svg)](https://github.com/melihovv/eloquent-presence-verifier/actions)
 [![styleci](https://styleci.io/repos/103585916/shield)](https://styleci.io/repos/103585916)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/eloquent-presence-verifier.svg)](https://packagist.org/packages/melihovv/eloquent-presence-verifier)
